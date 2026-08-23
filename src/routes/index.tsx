@@ -76,9 +76,10 @@ function Index() {
             <a href="#features" className="text-muted-foreground hover:text-foreground">
               Funktioner
             </a>
-            <a href="#stats" className="text-muted-foreground hover:text-foreground">
+            <Link to="/stats" className="text-muted-foreground hover:text-foreground">
               Statistik
-            </a>
+            </Link>
+
             <a href="#kontakt" className="text-muted-foreground hover:text-foreground">
               Kontakt
             </a>
